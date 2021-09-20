@@ -1,7 +1,7 @@
-# win11-icons
+# Win11 icons for JavaFX
 
 提取自 [win11 Segoe Fluent Icons Font](https://docs.microsoft.com/zh-cn/windows/apps/design/style/segoe-fluent-icons-font)
-图标字体 ,搭配 [Ikonli](https://github.com/kordamp/ikonli) 框架使用
+图标字体，搭配 [Ikonli](https://github.com/kordamp/ikonli) 框架使用。
 
 **maven**
 
