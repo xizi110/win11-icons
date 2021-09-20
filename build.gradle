@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+group 'xyz.yuelai.ikonli'
+version '12.2.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.kordamp.ikonli:ikonli-core:12.2.0'
+    annotationProcessor 'org.kordamp.jipsy:jipsy-processor:1.1.1'
+    compileOnly 'org.kordamp.jipsy:jipsy-annotations:1.1.1'
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+    repositories {
+        mavenLocal()
+    }
+}
