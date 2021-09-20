@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.kordamp.ikonli:ikonli-core:12.2.0'
+    compileOnly 'org.kordamp.ikonli:ikonli-core:12.2.0'
     annotationProcessor 'org.kordamp.jipsy:jipsy-processor:1.1.1'
     compileOnly 'org.kordamp.jipsy:jipsy-annotations:1.1.1'
 }
